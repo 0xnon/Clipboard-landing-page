@@ -1,0 +1,157 @@
+@font-face{
+    font-family: myRalewayFonts;
+    src: url(Raleway-Italic-VariableFont_wght.ttf);
+}
+*{
+    font-size: 18px;
+}
+body{
+    text-align: center;
+    font-weight: 500;
+    
+}
+    
+
+button{
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+button:hover{
+    cursor: grabbing;
+}
+#btn1{
+    background-color: hsl(171, 81%, 54%);
+    border-color: hsl(171, 81%, 54%);
+}
+#btn2{
+    background-color: rgb(137, 143, 227);
+    border-color: rgb(137, 143, 227);
+}
+header{
+    margin-bottom: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-text{
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image1{
+    display: flex;
+    margin-top: 75px;
+}
+.image1 img{
+    width: 100%;
+    flex: 1;
+}
+.track-text-container{
+    flex: 1;
+    text-align: left;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    
+}
+.image2{
+    margin: 55px;
+}
+
+.tools{
+    display: flex;
+    margin-top: 10px;
+}
+.tools div{
+    flex: 1;
+    margin: 8px;
+}
+#supports{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#supports img{
+    flex: 1;
+    margin: 25px;
+}
+footer{
+    background-color: rgb(244, 245, 248);
+    display: flex;
+    margin-top: 65px;
+    font-weight: bold;
+    font-family: monospace;
+}
+footer div{
+    flex: 1;
+    padding: 8px;
+}
+footer div img{
+    width: 50px;
+    height: 50px;
+}
+footer div ul{
+    list-style: none;
+}
+footer div ul li{
+    padding: 4px;
+
+}
+footer div ul li:hover{
+    color: hsl(171, 81%, 54%);
+    cursor: grab;
+    text-decoration: underline;
+}
+#social-media{
+    justify-content: center;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 375px){
+
+    .wrapper{
+        background-image: url(./bg-header-mobile.png);
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .image1{
+        display: block;
+    }
+
+    .track-text-container{
+        display: block;
+        text-align: center;
+    }
+
+    .tools{
+        display: block;
+    }
+
+    #supports{
+        display: block;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+    }
+
+    .image1 img, .image2 img{
+        width: 100%;
+    }
+
+    .track-text-container{
+        margin-left: 0px;
+    }
+
+}
