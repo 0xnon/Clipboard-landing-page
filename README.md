@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: ( https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-GJNp-ySqge)
 - Live Site URL: (https://0xnon-clipboard-landing-page.netlify.app/)
 
 ### Built with
@@ -34,8 +34,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.theodinproject.com/paths/full-stack-javascript/courses/advanced-html-and-css#responsive-design) - This helped me in understanding webpage responsiveness.
-- 
+- [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/advanced-html-and-css#responsive-design) - This helped me in understanding webpage responsiveness.
 
 ## Author
 
